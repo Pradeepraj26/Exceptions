@@ -6,7 +6,7 @@ public class MailEligibility {
 		
 		String name = "ppradeepraj26@yahoo.com";
 		if(name.contains("@gmail.com")) {
-			System.out.println("Correct Mail Id");
+			System.out.println("This is correct Mail Id");
 		}
 		else {
 			throw new MailException("Not a Correct Mail Id");
